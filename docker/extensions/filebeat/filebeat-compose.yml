@@ -32,6 +32,6 @@ services:
       FILEBEAT_INTERNAL_PASSWORD: ${FILEBEAT_INTERNAL_PASSWORD:-}
       BEATS_SYSTEM_PASSWORD: ${BEATS_SYSTEM_PASSWORD:-}
     networks:
-      - api-network
+      - investor-project
     depends_on:
       - elasticsearch
