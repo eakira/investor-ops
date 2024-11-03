@@ -13,6 +13,6 @@ services:
     environment:
       ELASTIC_PASSWORD: ${ELASTIC_PASSWORD:-}
     networks:
-      - elk
+      - investor-project
     depends_on:
       - elasticsearch

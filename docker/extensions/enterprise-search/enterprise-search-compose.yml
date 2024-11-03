@@ -17,6 +17,6 @@ services:
     ports:
       - 3002:3002
     networks:
-      - elk
+      - investor-project
     depends_on:
       - elasticsearch
